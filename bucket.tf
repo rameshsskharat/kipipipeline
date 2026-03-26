@@ -5,6 +5,10 @@ resource "aws_s3_bucket" "b2" {
   bucket = "demo1-kipi-testing"
 }
 
+resource "aws_s3_bucket" "b3" {
+  bucket = "demo1-kipi-testing1"
+}
+
 resource "aws_instance" "i1" {
     
     instance_type = "t2.micro"
