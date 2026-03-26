@@ -10,14 +10,14 @@ terraform {
 
 terraform {
   cloud {
-
     organization = "kipiorg"
-
+    hostname = app.terraform.io
     workspaces {
       name = "kipipipeline"
     }
   }
 }
+
 provider "aws" {
   # Configuration options
   access_key = var.akey

@@ -1,13 +1,13 @@
 variable "akey" {
   description = "access key"
   type        = string
-  sensitive   = true
+  
 
 }
 variable "skey" {
   description = "secret key"
   type        = string
-  sensitive   = true
+  
 
 }
 variable "location" {
